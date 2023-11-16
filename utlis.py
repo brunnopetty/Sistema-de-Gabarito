@@ -100,7 +100,7 @@ def showAnswers(img,myIndex,grading,respostas,questoes, escolhas):
         else:
             myColor = (0,0,255)
             respostacorreta = respostas[x]
-            cv2.circle(img, ((respostacorreta*secW)+secH//2,(x*secH)+secH//2), 25, (0,255,0), cv2.FILLED)
+            cv2.circle(img, ((respostacorreta*secW)+secH//2,(x*secH)+secH//2), 12, (0,255,0), cv2.FILLED)
 
         cv2.circle(img,(cX,cY),25,myColor,cv2.FILLED)
 
